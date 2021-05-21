@@ -18,6 +18,22 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+{% highlight c# %}
+
+///comment di un''struzione
+        public void WriteInformation(string format, params object[] args)
+        {
+            _logger.Information(format, args);
+        }
+
+        public void WriteError(string format, params object[] args)
+        {
+            _logger.Error(format, args);
+        }
+        
+
+{% endhighlight %}
+
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
