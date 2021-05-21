@@ -34,7 +34,7 @@ print_hi('Tom')
 
 {% endhighlight %}
 
-{% highlight sql %}
+{% highlight tsql %}
 /****** Script per comando SelectTopNRows da SSMS  ******/
 SELECT TOP (1000) [Id]
       ,[ScriptName]
