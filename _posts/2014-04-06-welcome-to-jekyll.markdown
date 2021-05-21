@@ -13,7 +13,18 @@ Jekyll also offers powerful support for code snippets:
 
 > We loved with a love that was more than love
 
+        public void WriteInformation(string format, params object[] args)
+        {
+            _logger.Information(format, args);
+        }
 
+        public void WriteError(string format, params object[] args)
+        {
+            _logger.Error(format, args);
+        }
+        
+        
+        
 
 {% highlight ruby %}
 def print_hi(name)
